@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adminlte Tinkering</title>
 
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/all.css">
 </head>
 <body>
 Hola!
