@@ -16,6 +16,7 @@
     "vue-resource": "^1.0.3"
   },
   "dependencies": {
-    "admin-lte": "^2.3.7"
+    "admin-lte": "^2.3.7",
+    "bootstrap-less": "^3.3.8"
   }
 }
