@@ -85,7 +85,7 @@
                     <li><a href="#"><i class="fa fa-circle-o"></i> Level One</a></li>
                 </ul>
             </li>
-            <li><a href="/nerd"><i class="fa fa-arrows"></i> <span>Nerd</span></a></li>
+            <li><a href="{{url('/nerd')}}"><i class="fa fa-arrows"></i> <span>Nerd</span></a></li>
             <li class="header">LABELS</li>
             <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Important</span></a></li>
             <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Warning</span></a></li>
