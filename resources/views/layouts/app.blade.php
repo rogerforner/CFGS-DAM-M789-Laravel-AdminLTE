@@ -1,17 +1,36 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Adminlte Tinkering</title>
 
-    <link rel="stylesheet" href="css/all.css">
-</head>
-<body>
+@section('htmlheader')
+   @include('partials.htmlheader')
+@show
+{{--Si no és diu res d'utilitza aquesta, sino la que es dóna a la secció-show--}}
 
-@yield('content')
+
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper" id ="app">
+
+    @include('partials.mainheader')
+
+    @include('partials.sidebar')
+
+    <div class="content-wrapper">
+        @include('partials.contentheader')
+        <section class="content">
+            @yield('content')
+        </section>
+
+    </div>
+
+    @include('partials.controlsidebar')
+
+    @include('partials.footer')
+
+</div>
+
+@section('scripts')
+    @include('partials.scripts')
+@show
 
 </body>
 </html>
